@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: zomato-deployment
 spec:
-  replicas: 3  # Number of desired replicas
+  replicas: 1  # Number of desired replicas
   selector:
     matchLabels:
       app: zomato
